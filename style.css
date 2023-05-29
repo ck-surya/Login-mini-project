@@ -1,0 +1,97 @@
+:root{
+    --fontColor: #874556
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+
+}
+.nav-brand{
+    font-size: 20px;
+}
+
+
+img{
+    height: 25px;
+}
+.items{
+    padding-left: 18px;
+    /* color: #000; */
+    text-decoration-color: black;
+
+}
+
+.btn{
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background:var(--fontColor) ;
+    font-size: medium;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  -webkit-linear-gradient(left, #8325c7,#00bf8f);
+    /* color:  var(--fontColor); */
+    padding: 20px;
+    height: 100vh;
+}
+
+.form{
+    height: 400px;
+    width: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    padding: 15px;
+}
+
+input[type="email"],
+input[type="password"]{
+    margin-top: 15px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom-color: var(--fontColor);
+}
+.icons{
+    padding-top: 15px;
+}
+
+img:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+p{
+    text-decoration: underline;
+    font-size: 16px;
+    color: blue;
+    margin-top: 5px;
+}
+
+.log-btn:hover {
+    color: #874556;
+    background-color: white;
+    border: 1px solid #874556;
+    transform: scale(1.002);
+  }
+.search:focus {
+    outline-color: #874556;
+  }
+  a{
+    text-decoration-color: black;
+  }
